@@ -1,7 +1,3 @@
--- sense.luau — ESP for this game (custom Body/Hitbox characters)
--- Fix: Highlight adorneed to Body (nested mesh container), not outer char.
--- Roblox silently fails to render when Adornee is a Model whose parts are
--- only inside a nested Model.
 local runService = game:GetService("RunService")
 local players = game:GetService("Players")
 local localPlayer = players.LocalPlayer
